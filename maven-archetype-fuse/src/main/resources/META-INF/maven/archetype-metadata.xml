@@ -1,0 +1,12 @@
+<archetype-descriptor xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+   name="fuse-project">
+         <fileSets>
+         <fileSet filtered="true" encoding="UTF-8">
+             <directory>features</directory>
+         </fileSet>
+         <fileSet filtered="true" encoding="UTF-8">
+             <directory>bundle</directory>
+         </fileSet>
+     </fileSets>
+ </archetype-descriptor>
